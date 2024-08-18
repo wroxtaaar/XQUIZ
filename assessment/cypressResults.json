@@ -1,0 +1,256 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "projectRoot": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment",
+    "fixturesFolder": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "linux",
+    "pageLoadTimeout": 60000,
+    "port": 38161,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "/usr/bin/node",
+    "resolvedNodeVersion": "16.20.2",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/support/e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "119",
+        "name": "chrome",
+        "path": "google-chrome",
+        "version": "119.0.6045.159"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Chromium",
+        "family": "chromium",
+        "majorVersion": "112",
+        "name": "chromium",
+        "path": "chromium-browser",
+        "version": "112.0.5615.49"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "/home/crio-user/.cache/Cypress/13.13.2/Cypress/resources/app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.13.2",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.13.2",
+  "endedTestsAt": "2024-08-18T04:53:48.634Z",
+  "osName": "linux",
+  "osVersion": "Ubuntu - ",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 7,
+        "passes": 7,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-08-18T04:53:43.478Z",
+        "end": "2024-08-18T04:53:48.643Z",
+        "duration": 5165
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "/home/crio-user/workspace/wroxtaar-ME_FE_BUILDOUT_XQUIZFE/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress/e2e/spec.cy.js"
+      },
+      "stats": {
+        "duration": 5167,
+        "endedAt": "2024-08-18T04:53:48.634Z",
+        "failures": 0,
+        "passes": 7,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-08-18T04:53:43.467Z",
+        "suites": 1,
+        "tests": 7
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 268,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "displays a question with multiple answers"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 350,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "highlights the correct answer in green when submitted"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 305,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "highlights the correct answer in green even when the wrong answer is selected"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 225,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "loads a new question when the next button is clicked"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 634,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "displays score at the end of the quiz"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 234,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "shows an alert if submitted without selecting an answer"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 177,
+          "state": "passed",
+          "title": [
+            "Simple Quiz App",
+            "has the correct padding for the body"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-08-18T04:53:43.467Z",
+  "totalDuration": 5167,
+  "totalFailed": 0,
+  "totalPassed": 7,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 7
+}

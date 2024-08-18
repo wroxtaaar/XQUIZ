@@ -1,0 +1,9 @@
+{
+    "Test Case 1: Simple Quiz App - displays a question with multiple answers": "TEST_STATUS_SUCCESS",
+    "Test Case 2: Simple Quiz App - highlights the correct answer in green when submitted": "TEST_STATUS_SUCCESS",
+    "Test Case 3: Simple Quiz App - highlights the correct answer in green even when the wrong answer is selected": "TEST_STATUS_SUCCESS",
+    "Test Case 4: Simple Quiz App - loads a new question when the next button is clicked": "TEST_STATUS_SUCCESS",
+    "Test Case 5: Simple Quiz App - displays score at the end of the quiz": "TEST_STATUS_SUCCESS",
+    "Test Case 6: Simple Quiz App - shows an alert if submitted without selecting an answer": "TEST_STATUS_SUCCESS",
+    "Test Case 7: Simple Quiz App - has the correct padding for the body": "TEST_STATUS_SUCCESS"
+}
